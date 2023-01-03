@@ -17,4 +17,5 @@ public class HomeController {
         model.addAttribute("message", "This is a custom message");
         return "message";
     }
+    {
 }
