@@ -107,7 +107,7 @@ pipeline {
 
        stage('Checkout Selenium') {
             steps {
-                echo "-=- Checkout project -=-"
+                echo "-=- Checkout project  -=-"
                 git url: 'https://github.com/Ngit11/example-springboot-automation-test-selenium.git'
 
             }
