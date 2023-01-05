@@ -97,8 +97,6 @@ pipeline {
                    remoteDirectory: "",
                    execCommand: """
                     sudo docker stop \$(docker ps -a -q);
-                    # FACULTATIF sudo docker rm \$(docker ps -a -q); 
-                    # FACULTATIF sudo docker rmi -f \$(docker images -a -q); 
                     sudo docker run -d -p 8080:8080 nodocker9/springbootapp1:1.0; """ 
                   )
                  ])
